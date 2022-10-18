@@ -2,7 +2,7 @@ name = "lapce-rome"
 version = "0.10.1-next"
 author = "xiaoxin-sky"
 display-name = "Rome"
-description = "a formatter, linter, bundler, and more for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS."
+description = "a Faster(⚡)  formatter, linter, bundler, and more for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS."
 wasm = "bin/lapce-rome.rustc.wasm"
 
 [activation]
