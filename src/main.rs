@@ -44,7 +44,7 @@ fn initialize(params: InitializeParams) -> Result<()> {
         },
     ];
 
-    let server_args = vec!["lsp_proxy".to_string()];
+    let server_args = vec!["lsp-proxy".to_string()];
     let volt_uri = std::env::var("VOLT_URI")?;
     let server_path = Url::parse(&volt_uri).unwrap().join("rome").unwrap();
 
