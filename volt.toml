@@ -1,6 +1,7 @@
 name = "lapce-rome"
-version = "0.10.1-next"
+version = "0.0.1"
 author = "xiaoxin-sky"
+icon = "logo.png"
 display-name = "Rome"
 description = "a Faster(⚡)  formatter, linter, bundler, and more for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS."
 wasm = "bin/lapce-rome.rustc.wasm"
@@ -8,3 +9,7 @@ wasm = "bin/lapce-rome.rustc.wasm"
 [activation]
 language = ["javascript", "typescript"]
 workspace-contains = ["*/Cargo.toml"]
+
+[config."serverPath"]
+default = ""
+description = "Path to rome executable. When empty, it points to the bundled binary."
