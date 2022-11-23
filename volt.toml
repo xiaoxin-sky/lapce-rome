@@ -5,6 +5,7 @@ icon = "logo.png"
 display-name = "Rome"
 description = "a Faster(⚡)  formatter, linter, bundler, and more for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS."
 wasm = "bin/lapce-rome.rustc.wasm"
+repository = "https://github.com/xiaoxin-sky/lapce-rome"
 
 [activation]
 language = ["javascript", "typescript"]
