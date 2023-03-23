@@ -15,7 +15,7 @@ Lapce-rome is a Lapce plugin for rome, The Rome is faster⚡ , A formatter, lint
 > if download language Binary slow, You can set language server.
 > you need install rome first, and Paste the npm global rome bin to lapce rome config setting.  
 
-install global vue language server
+install global rome language server
 ```bash
 npm install rome -g
 ```
